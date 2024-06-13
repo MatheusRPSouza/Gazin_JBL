@@ -1,0 +1,47 @@
+
+/* Tamanho xs (0px à 575px) - GLOBAL */
+
+    #banner-2
+    {
+        background-image: linear-gradient(to bottom left, #36437b, #73157a);
+        color: white;
+        position: relative;
+        padding-top: 10px;
+    }
+
+    #banner-5 p
+    {
+        font-size: 3vw;
+    }
+
+/* Tamanho sm  (576px à 767px) */
+@media (min-width: 576px) { 
+
+    #banner-2
+    {
+        background-image: none;
+        color: var(--color-primary-mrpds);
+        font-size: 3vw;
+    }
+
+}
+
+/* Tamanho md (768px à 991px) */
+@media (min-width: 768px) { 
+
+}
+
+/* Tamanho lg (992px à 1199px) */
+@media (min-width: 992px) { 
+
+}
+
+/* Tamanho xl (1200px à 1399px) */
+@media (min-width: 1200px) { 
+
+}
+
+/* Tamanho xxl (1400px à infinite) */
+@media (min-width: 1400px) { 
+
+}
